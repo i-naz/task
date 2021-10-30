@@ -7,7 +7,7 @@
 
 	$executionStartTime = microtime(true);
 
-	$url='http://api.geonames.org/findNearByWeatherJSON?lat=' . $_REQUEST['lat'] . '&lng=' . $_REQUEST['lng'] . '&username=flightltd&style=full';
+	$url='http://api.geonames.org/findNearByWeatherJSON?lat=' . $_REQUEST['lat'] . '&lng=' . $_REQUEST['lng'] . '&username=naz06&style=full';
 
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
