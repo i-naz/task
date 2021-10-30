@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>AJAX/PHP/CURL/JSON example</title>
+    <meta name="description" content="AJAX/PHP/CURL/JSON example">
+    <meta name="author" content="Paddy Evans">
+    <link rel="stylesheet" href="libs/css/styles.css"></link>
+
+</head>
+
+<body>
+
+<table>
+    <tr>
+        <th> API name</th>
+        <th> API description</th>
+        <th>Action</th>
+    </tr>
+
+    <tr>
+        <td>NeighbourHood Info</td>
+        <td>
+            <label>latitude</label>
+            <input type="text" id="lat3" value="40.78343">
+            <label>longitude</label>
+            <input type="text" id="lng3" value="-73.96625">
+        </td>
+        <td>
+            <button id="neighbourhoodInfo">submit</button>
+        </td>
+    </tr>
+
+
+
+    <tr>
+        <td>findNearbyPlaceName</td>
+        <td>
+            <label>latitude</label>
+            <input type="text" id="lat" value="47.3">
+            <label>longitude</label>
+            <input type="text" id="lng" value="9">
+        </td>
+        <td>
+            <button id="getNearByPlace">submit</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>findNearbyWeather</td>
+        <td>
+            <label>latitude</label>
+            <input type="text" id="latw" value="47.3">
+            <label>longitude</label>
+            <input type="text" id="lngw" value="9">
+        </td>
+        <td>
+            <button id="getNearByWeather">submit</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="3">
+				<textarea id="result" name="result" rows="10" cols="150">
+					Results of Api call displayed here
+  </textarea></td>
+    </tr>
+
+</table>
+
+<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+<script type="application/javascript" src="libs/js/script.js"></script>
+
+</body>
+
+</html>
